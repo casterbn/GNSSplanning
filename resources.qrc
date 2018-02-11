@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/plugins/GNSSplanning" >
+        <file>icon.png</file>
+    </qresource>
+</RCC>

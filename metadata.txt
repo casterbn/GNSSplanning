@@ -1,0 +1,39 @@
+# This file contains metadata for your plugin. Since
+# version 2.0 of QGIS this is the proper way to supply
+# information about a plugin. The old method of
+# embedding metadata in __init__.py will
+# is no longer supported since version 2.0.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=GNSSplanning
+qgisMinimumVersion=2.0
+description=This plugin predict GNSS satellites position over reciver's sky given an epoch and a skyline obstruction.
+version=1.0
+author=Cesc Masdeu Ferrer
+email=cescmf@gmail.com
+
+about=This plugin predict GNSS satellites position over reciver's sky given an epoch and a skyline obstruction.
+
+tracker=cmf
+repository=cmf
+# End of mandatory metadata
+
+# Recommended items:
+
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=cmf
+
+homepage=cmf
+category=Plugins
+icon=icon/icon.png
+# experimental flag
+experimental=True
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
